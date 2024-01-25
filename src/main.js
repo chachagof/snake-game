@@ -1,5 +1,6 @@
 /* Set up using Vue 3 */
 import { createApp } from 'vue'
+import './stytle.css'
 import App from './App.vue'
 
 /* import the fontawesome core */

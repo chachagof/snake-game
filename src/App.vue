@@ -18,17 +18,17 @@ const playBoard = ref(null)
         {{ highScoreElement }}
       </span>
     </div>
-  </div>
 
-  <div class="play-board">
-    {{ playBoard }}
-  </div>
+    <div class="play-board">
+      {{ playBoard }}
+    </div>
 
-  <div class="controls">
-      <font-awesome-icon :key="ArrowLeft" icon="fa-solid fa-arrow-left-long" />
-      <font-awesome-icon :key="ArrowUp" icon="fa-solid fa-arrow-up-long" />
-      <font-awesome-icon :key="ArrowRight" icon="fa-solid fa-arrow-right-long" />
-      <font-awesome-icon :key="ArrowDown" icon="fa-solid fa-arrow-down-long" />
+    <div class="controls">
+        <i><font-awesome-icon :key="ArrowLeft" icon="fa-solid fa-arrow-left-long" /></i>
+        <i><font-awesome-icon :key="ArrowUp" icon="fa-solid fa-arrow-up-long" /></i>
+        <i><font-awesome-icon :key="ArrowRight" icon="fa-solid fa-arrow-right-long" /></i>
+        <i><font-awesome-icon :key="ArrowDown" icon="fa-solid fa-arrow-down-long" /></i>
+      </div>
     </div>
 
 </template>
